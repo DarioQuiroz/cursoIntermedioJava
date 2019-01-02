@@ -30,10 +30,6 @@ public class Enumeraciones {
 
     
     
-    
-    
-    
-    
     private static void indicarDia(Dias dias) {
        switch(dias){
             case LUNES:
@@ -68,3 +64,4 @@ public class Enumeraciones {
         }
     }
 }
+
