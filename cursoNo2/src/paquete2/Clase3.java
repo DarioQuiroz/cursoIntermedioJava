@@ -3,14 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ManejoDeBloques;
+package paquete2;
+import paquete1.clase1;
 /**
  *
  * @author dquiroz
  */
-public class BlquesDeCodigo {
-    public static void main(String[] args) {
-        Persona p1=new Persona();
-        System.out.println(p1.getidPersona());
+public class Clase3 extends clase1{
+    public  Clase3(){
+        super(1,2);
+        
+    }
+    public void pruebaDesdeClase3(){
+        clase1 c1= new clase1();
     }
 }

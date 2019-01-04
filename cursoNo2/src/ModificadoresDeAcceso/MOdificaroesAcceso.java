@@ -10,5 +10,9 @@ package ModificadoresDeAcceso;
  * @author dquiroz
  */
 public class MOdificaroesAcceso {
+    public static void main(String[] args) {
+        System.out.println("");
+   
+    }
     
 }

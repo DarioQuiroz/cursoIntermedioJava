@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ModificadoresDeAcceso;
+package paquete1;
 
 /**
  *
@@ -31,6 +31,18 @@ public class clase1 {
     private clase1(int i, int j, int k, int l){
         System.out.println("constructor privado 4");
     }
-    
+    public int metodoPublico(){
+        return 9;
+        
+    }
+    protected int metodoProtegido(){
+        return 10;
+    }
+    int metodoPaquete(){
+        return 11;
+    }
+    private int metodoPrivado(){
+        return 12;
+    }
     
 }
